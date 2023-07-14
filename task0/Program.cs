@@ -162,3 +162,49 @@
 // Задача № 8 готова
 
 
+
+// int GetRandomNumber()
+// {
+
+// int number = new Random().Next(10,100);
+// Console.WriteLine(number);
+// return number;
+
+// }
+
+// 
+
+
+// Напишите программу Которая выводит случайные трехзначное число и удаляет вторую цифру 
+
+
+// int GetRandomNumber() // ф. генерирует случачное число 
+// {
+// int number = new Random().Next(100,1000);
+// Console.WriteLine(number);
+// return number;
+// }
+
+// int num1 = GetRandomNumber();
+
+// int GetFirstNum(int num1)
+// {
+//     int num2 = num1/100;
+//     return num2;
+// }
+
+// int GetLastNum(int num1)
+// {
+//     int num3 = num1%10;
+//     return num3;
+// }
+
+//     Console.WriteLine(GetFirstNum(num1) + "" + GetLastNum(num1));
+
+
+int a = 16;
+int b = 4;
+
+int c = a%b;
+int d = b%a;
+Console.WriteLine(c +"/"+d);
