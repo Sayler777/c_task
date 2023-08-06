@@ -24,7 +24,7 @@ void Start(){
     Console.WriteLine("\nНечетные числа:");
     for (int i = 0; i < array.Length; i++)
     {
-        if(array[i]%2 > 0 ){
+        if(array[i]%2 > 0 || array[i]%2 < 0 ){
         Console.Write($"{array[i]} ");
         sumArrOdd += array[i];
         }
